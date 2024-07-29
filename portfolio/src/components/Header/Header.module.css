@@ -5,10 +5,11 @@
     display: flex; /* flexbox */
     align-items: center;    
     justify-content: center; /* center content */
-    margin-top: 50px; /* 50px from top */
     z-index: 1; /* above everything else */
-    margin-left: 10%; /* 10% from left */
-    margin-right: 10%;  /* 10% from right */
+    height: 100vh; /* 100% of viewport height */
+    width: 100vw; /* 100% of viewport width */
+    scroll-snap-align: start; /* snap to start */
+    background-color: var(--color-white);
 }
 
 .content {
@@ -22,36 +23,42 @@
 .title {
     font-size: 72px;
     font-weight: 900;
-    font-family: var(--font-medium);
+    font-family: var(--outfit-bold);
     padding-right: 40px;
+    color: var(--color-dark-grey);
 }
 
 .description {
-    font-size: 30px;
-    font-family: var(--font-medium);
-    margin-top: 20px;
-    margin-bottom: 30px;
-    color: var(--color-dark);
+    font-size: 20px;
+    font-family: var(--outfit-bold);
+    margin-bottom: 15px;
+    color: var(--color-dark-grey);
 }
 
 .headerImg {
-    width: 40%; /* Set the width of the image to 100% */
+    width: 20%; /* Set the width of the image to 100% */
     height: auto; /* Maintain aspect ratio */
 }
 
-.contactBtn {
+.button {
     text-decoration: none; /* no underline */
     border-radius: 100px; /* round corners */
-    background-color: var(--color-secondary); 
-    color: var(--color-dark);
+    background-color: var(--color-light-grey); /* dark grey background */
+    color: var(--color-text); /* dark grey text */
     padding: 10px 20px; /* padding */
+    margin-right: 10px; /* 10px from right */
 }
 
-.contactBtn:hover {
-    background-color: var(--color-dark); /* dark background */
-    color: var(--color-primary); /* white text */
+.button:hover {
+    background-color: var(--color-dark-grey); /* dark background */
+    color: var(--color-white); /* white text */
 }
 
+.contact {
+    margin-top: 10px; /* 20px from top */
+    margin-right: 20px;
+
+}
 
 
 @media screen and (max-width: 830px) {

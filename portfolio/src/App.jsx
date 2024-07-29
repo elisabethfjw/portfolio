@@ -1,17 +1,15 @@
 
 import styles from './App.module.css';
-import { Navbar } from './components/Navbar/Navbar';
 import { Header } from './components/Header/Header';
-import { Experience } from './components/Experience/Experience';
 import { Projects } from './components/Projects/Projects';
+import { Timeline } from './components/Timeline/Timeline';
 
 function App() {
 
   return (
     <div className={styles.App}>
-      <Navbar />
       <Header />
-      <Experience />
+      <Timeline />
       <Projects />
     </div>
   );

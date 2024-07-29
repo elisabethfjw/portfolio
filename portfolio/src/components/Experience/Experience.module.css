@@ -6,6 +6,8 @@
     padding: 75px;
     margin-left: 10%; /* 10% from left */
     margin-right: 10%;  /* 10% from right */
+    height: 100vh; /* 100% of viewport height */
+    scroll-snap-align: start;
 }
 
 .title {
@@ -35,7 +37,7 @@
     border-radius: 20px;
     list-style: none;
     padding: 25px;
-    background-image: linear-gradient(90deg, var(--color-primary) 0%, rgba(255,255,255,0) 100%);
+    background-image: linear-gradient(90deg, var(--color-light-grey) 0%, rgba(255,255,255,0) 100%);
     background-size: 0 100%; /* no gradient */
     background-repeat: no-repeat;
     transition: 0.4s;
@@ -49,12 +51,12 @@
 .listItem h3 {
     font-size: 25px;
     font-weight: 700;
-    color: var(--color-dark);
+    color: var(--color-dark-grey);
 }
 
 .item {
     margin-left: 20px;
-    font-family: var(--font-lato);
+    font-family: var(--outfit-regular);
 }
 
 @media screen and (max-width:830px) {

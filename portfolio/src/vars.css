@@ -1,12 +1,26 @@
 :root{
     /* colors */
-    --color-text: #1A120B;
-    --color-primary: #fff;
-    --color-secondary: #DFD7BF;
-    --color-dark: #3F2305;
-    --color-bg: #F7F6F3;
-    /* fonts */
-    --font-italic: 'playfair-italic', sans-serif;
-    --font-medium: 'playfair-medium', sans-serif;
-    --font-lato: 'lato-regular', sans-serif;
+    --color-text: #000000;
+    --color-bg: #fff;
+    --color-light-grey: #e7e7e7;
+    --color-medium-grey: #aeaeae;
+    --color-dark-grey: #333;
+    --color-white: #fff;
+    --color-dark-green: #435334;
+    --color-light-green: #d3d3b1;
+    --color-medium-green: #9EB384;
+    --color-cream: #F2F1EB;
+    --color-light-yellow: #feed9f;
+
+    /* fonts */     
+    --font-outfit: 'outfit-regular', sans-serif;
+    --font-outfit-light: 'outfit-light', sans-serif;
+    --font-outfit-bold: 'outfit-bold', sans-serif;
+    --font-outfit-black: 'outfit-black', sans-serif;
+    --font-outfit-medium: 'outfit-medium', sans-serif;
+    --font-outfit-italic: 'outfit-italic', sans-serif;
+    --font-outfit-bolditalic: 'outfit-bolditalic', sans-serif;
+    --font-outfit-lightitalic: 'outfit-lightitalic', sans-serif;
+    --font-outfit-mediumitalic: 'outfit-mediumitalic', sans-serif;
+    --font-outfit-blackitalic: 'outfit-blackitalic', sans-serif;
 }

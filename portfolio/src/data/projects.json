@@ -1,7 +1,20 @@
 [
     {
+      "title": "User-to-User Recommendation System",
+      "description": "Recommendation system using User-to-User collaborative filtering algorithm.",
+      "skills": ["Python"],
+      "demo": "https://www.example.com",
+      "github": "https://www.github.com"
+    },
+    {
       "title": "Project A",
-      "imageSrc": "projects/project.png",
+      "description": "This is a project made to learn the latest languages by building an app.",
+      "skills": ["React", "Express", "Node"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "Project A",
       "description": "This is a project made to learn the latest languages by building an app.",
       "skills": ["React", "Express", "Node"],
       "demo": "https://www.example.com",
