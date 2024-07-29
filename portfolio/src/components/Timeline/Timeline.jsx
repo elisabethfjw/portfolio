@@ -7,9 +7,9 @@ export const Timeline = () => {
     <section className={styles.container} id='timeline'>
         <h2 className={styles.title}>experience</h2>
         <div className={styles.box}>
-                <div className={styles.boxTitle}><h2>Data Science Intern</h2></div>
+                <div className={styles.boxTitle}><h3>Data Science Intern</h3></div>
                 <div className={styles.boxSubtitle}>
-                    <h3>Azendian Solutions</h3>
+                    <h4>Azendian Solutions</h4>
                     <p>July 2024 - Present</p>
                 </div>
                 <div className={styles.boxItem}>
@@ -20,9 +20,9 @@ export const Timeline = () => {
                 </div>
         </div>
         <div className={styles.box}>
-                <div className={styles.boxTitle}><h2>Business Analyst Intern</h2></div>
+                <div className={styles.boxTitle}><h3>Business Analyst Intern</h3></div>
                 <div className={styles.boxSubtitle}>
-                    <h3>Accenture</h3>
+                    <h4>Accenture</h4>
                     <p>August - December 2023</p>
                 </div>
                 <div className={styles.boxItem}>
