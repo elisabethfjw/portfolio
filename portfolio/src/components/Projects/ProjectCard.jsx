@@ -8,11 +8,11 @@ export const ProjectCard = ({project : {title, description, skills, github}}) =>
     <h3 className={styles.title}>{title}</h3>
     <p className={styles.description}>{description}</p>
     <ul className={styles.skills}>  
-      {skills.map((skill, id) => {
-        <li key={id} className={styles.skill}>{skill}</li>;
-      })}
+      {skills.map((skill, id) => (
+        <li key={id} className={styles.skill}>{skill}</li>
+      ))}
     </ul>   
-    <a href={github} className={styles.link}>Github Link</a>
+    <a href={github} className={styles.button} target="_blank" rel="noopener noreferrer">Github</a>
   </div>
   );
 };
