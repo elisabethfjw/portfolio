@@ -14,8 +14,9 @@ export const Experience = () => {
                 </div>
                 <div className={styles.boxItem}>
                     <ul>
-                        <li className={styles.item}>Created a technical design file to convey the requirements</li> 
-                        <li className={styles.item}>Implemented code changes in the SPRING framework (SpringBatch and SpringBoot)</li>
+                        <li className={styles.item}>Implemented a PowerBI dashboard to display real-time updates utilizing streaming datasets</li> 
+                        <li className={styles.item}>Created a Python script to extract data from PostgreSQL, perform intermediate calculations, and send it as JSON payloads via POST requests for dynamic visualization in PowerBI.</li>
+                        <li className={styles.item}>Researched Predictive Maintenance and Fault Detection Models </li>
                     </ul>
                 </div>
         </div>
