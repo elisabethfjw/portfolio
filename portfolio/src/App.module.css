@@ -1,44 +1,8 @@
 @import "./vars.css";
 
 @font-face {
-  font-family: "outfit-regular";
+  font-family: "outfit";
   src: url(../assets/fonts/Outfit-Regular.ttf);
-}
-@font-face {
-  font-family: "outfit-light";
-  src: url(../assets/fonts/Outfit-Light.ttf);
-}
-@font-face {
-  font-family: "outfit-bold";
-  src: url(../assets/fonts/Outfit-Bold.ttf);
-}
-@font-face {
-  font-family: "outfit-black";
-  src: url(../assets/fonts/Outfit-Black.ttf);
-}
-@font-face {
-  font-family: "outfit-medium";
-  src: url(../assets/fonts/Outfit-Medium.ttf);
-}
-@font-face {
-  font-family: "outfit-italic";
-  src: url(../assets/fonts/Outfit-Italic.ttf);
-}
-@font-face {
-  font-family: "outfit-bolditalic";
-  src: url(../assets/fonts/Outfit-BoldItalic.ttf);
-}
-@font-face {
-  font-family: "outfit-lightitalic";
-  src: url(../assets/fonts/Outfit-LightItalic.ttf);
-}
-@font-face {
-  font-family: "outfit-mediumitalic";
-  src: url(../assets/fonts/Outfit-MediumItalic.ttf);
-}
-@font-face {
-  font-family: "outfit-blackitalic";
-  src: url(../assets/fonts/Outfit-BlackItalic.ttf);
 }
 
 

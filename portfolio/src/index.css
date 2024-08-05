@@ -3,7 +3,7 @@
     box-sizing: border-box; /* use border for object's width and height */
     margin: 0;  /* remove margin */
     padding: 0; /* remove padding */
-    font-family: "outfit-regular", sans-serif, Arial; /* set font */
+    font-family: "outfit", sans-serif, Arial; /* set font */
 }
 
 html {

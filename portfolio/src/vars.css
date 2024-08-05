@@ -14,14 +14,5 @@
     --color-beige: #F0EDD4;
 
     /* fonts */     
-    --font-outfit: 'outfit-regular', sans-serif;
-    --font-outfit-light: 'outfit-light', sans-serif;
-    --font-outfit-bold: 'outfit-bold', sans-serif;
-    --font-outfit-black: 'outfit-black', sans-serif;
-    --font-outfit-medium: 'outfit-medium', sans-serif;
-    --font-outfit-italic: 'outfit-italic', sans-serif;
-    --font-outfit-bolditalic: 'outfit-bolditalic', sans-serif;
-    --font-outfit-lightitalic: 'outfit-lightitalic', sans-serif;
-    --font-outfit-mediumitalic: 'outfit-mediumitalic', sans-serif;
-    --font-outfit-blackitalic: 'outfit-blackitalic', sans-serif;
+    --font-outfit: 'outfit', sans-serif;
 }
