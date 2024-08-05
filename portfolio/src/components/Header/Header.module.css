@@ -8,7 +8,6 @@
     z-index: 1; /* above everything else */
     height: 100vh; /* 100% of viewport height */
     width: 100vw; /* 100% of viewport width */
-    scroll-snap-align: start; /* snap to start */
     background-color: var(--color-white);
 }
 
@@ -43,7 +42,7 @@
 .button {
     text-decoration: none; /* no underline */
     border-radius: 100px; /* round corners */
-    background-color: var(--color-light-grey); /* dark grey background */
+    background-color: var(--color-light-grey); /* light grey background */
     color: var(--color-dark-grey); /* dark grey text */
     padding: 10px 20px; /* padding */
     margin-right: 10px; /* 10px from right */

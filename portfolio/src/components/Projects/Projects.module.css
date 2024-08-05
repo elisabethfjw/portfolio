@@ -6,9 +6,6 @@
     flex-direction: column; /* Stack items in projects page vertically */
     justify-content: center; /* Center content vertically */
     align-items: center; /* Center content horizontally */
-    height: 100vh; /* 100% of viewport height */
-    width: 100vw; /* 100% of viewport width */
-    scroll-snap-align: start;
 }
 
 .title {
@@ -49,10 +46,7 @@
     }
 
     .projects {
-        flex-direction: column;
-        width: 80%; /* Adjust width for better fit */
-        padding-bottom: 10px; /* Add padding to bottom of projects */
-        overflow-y: auto; /* Enable vertical scrolling if content overflows */  
+        grid-template-columns: 1fr; /* Change to 1 column on small screens */
     }
 }
 
