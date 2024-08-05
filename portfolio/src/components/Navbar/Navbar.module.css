@@ -14,7 +14,7 @@
     font-size: 15px;
     font-weight: 600;
     text-decoration: none;
-    color: var(--color-text);
+    color: var(--color-dark-grey);
 }
 
 .menu {
@@ -29,7 +29,7 @@
 
 .menuItems a {
     font-size: 25px;
-    color: var(--color-text);
+    color: var(--color-dark-grey);
     text-decoration: none;
     color: var(--color-dark-grey);
 }

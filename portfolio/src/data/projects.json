@@ -1,23 +1,38 @@
 [
     {
-      "title": "User-to-User Recommendation System",
+      "title": "SustainWebable",
+      "description": "This is a project made to learn the latest languages by building an app.",
+      "skills": ["Google Firebase", "Java", "Web Carbon API"],
+      "github": "https://github.com/Eqedos/SustainWebable"  
+    },
+    {
+      "title": "ECOde",
+      "description": "This is a project made to learn the latest languages by building an app.",
+      "skills": ["React", "Express", "Node"],
+      "github": "https://github.com/Eqedos/WTHFinal"
+    },
+    {
+      "title": "TFLEaRN Bot",
       "description": "Recommendation system using User-to-User collaborative filtering algorithm.",
       "skills": ["Python"],
-      "demo": "https://www.example.com",
       "github": "https://www.github.com"
     },
     {
-      "title": "Project A",
+      "title": "SustainWebable",
       "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "skills": ["Google Firebase", "Java", "Website Carbon API"],
+      "github": "https://github.com/Eqedos/SustainWebable"  
     },
     {
-      "title": "Project A",
+      "title": "ECOde",
       "description": "This is a project made to learn the latest languages by building an app.",
       "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "github": "https://github.com/Eqedos/WTHFinal"
+    },
+    {
+      "title": "TFLEaRN Bot",
+      "description": "Recommendation system using User-to-User collaborative filtering algorithm.",
+      "skills": ["Python"],
+      "github": "https://www.github.com"
     }
 ]

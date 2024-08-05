@@ -1,7 +1,7 @@
 @import "../../vars.css";
 
 .container {
-    background-color: var(--color-beige);
+    background-color: var(--color-light-yellow);
     display: flex;
     flex-direction: column; /* Stack items in projects page vertically */
     justify-content: center; /* Center content vertically */
@@ -14,7 +14,7 @@
 .title {
     font-size: 35px;
     text-align: center;
-    color: var(--color-dark-grey);
+    color: var(--color-dark-brown);
     padding: 10px; /* Add padding (space inside title) to title */
 }
 

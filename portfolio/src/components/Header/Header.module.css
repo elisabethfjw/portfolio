@@ -16,7 +16,7 @@
     display: flex; /* flexbox */
     flex-direction: column; /* column */
     align-items: flex-start; /* align left */
-    color: var(--color-text); /* text color */
+    color: var(--color-dark-grey); /* text color */
     z-index: 1; /* above everything else */
 }
 
@@ -44,7 +44,7 @@
     text-decoration: none; /* no underline */
     border-radius: 100px; /* round corners */
     background-color: var(--color-light-grey); /* dark grey background */
-    color: var(--color-text); /* dark grey text */
+    color: var(--color-dark-grey); /* dark grey text */
     padding: 10px 20px; /* padding */
     margin-right: 10px; /* 10px from right */
 }

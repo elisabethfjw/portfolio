@@ -10,30 +10,12 @@
     width: 350px;
     height: 350px; 
     justify-content: space-between; /* This will distribute space between children */
-    flex: 1 1 auto; /* Allow cards to grow and shrink */
-    opacity: 0;
-    animation: fadeIn 0.5s ease forwards;
-}
-
-@keyframes fadeIn {
-    to {
-        opacity: 1; /* Fade in to fully visible */
-    }
-}
-
-.container:nth-child(1) {
-    animation-delay: 0.2s;
-}
-.container:nth-child(2) {
-    animation-delay: 0.4s;
-}
-.container:nth-child(3) {
-    animation-delay: 0.6s;
 }
 
 .title {
     font-size: clamp(1rem, 1.5vw, 2rem);
     text-align: center;
+    color: var(--color-dark-brown);
 }
 
 .description {
@@ -51,20 +33,24 @@
 }
 
 .skill {
-    font-size: 25px;
-    font-weight: 400;
+    font-size: 1rem;
     border-radius: 100px;
-    background-color: var(--color-light-grey);
-    padding: 2px 20px;
+    background-color: var(--color-cream);
+    color: var(--color-dark-brown);
+    padding: 2px 10px;
 }
 
 .button {
     text-decoration: none; /* no underline */
     border-radius: 50px; /* round corners */
-    background-color: var(--color-light-grey); /* dark grey background */
-    color: var(--color-text); /* dark grey text */
+    background-color: var(--color-white); /* white background */
+    color: var(--color-dark-brown); /* dark grey text */
     padding: 10px 5px; /* padding */
     text-align: center;
     margin-bottom: 10px;
+    font-size: 1rem;
 }
-
+.button:hover {
+    background-color: var(--color-dark-brown); /* light grey background */
+    color: var(--color-white); /* white text */
+}

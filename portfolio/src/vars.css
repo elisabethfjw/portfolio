@@ -1,17 +1,17 @@
 :root{
     /* colors */
-    --color-text: #000000;
     --color-bg: #fff;
-    --color-light-grey: #e7e7e7;
-    --color-medium-grey: #aeaeae;
+    --color-light-grey: #faf5ef;
+    --color-medium-grey: #7b7a7a;
     --color-dark-grey: #333;
     --color-white: #fff;
-    --color-dark-green: #435334;
+    --color-dark-green: #436850;
     --color-light-green: #d3d3b1;
     --color-medium-green: #9EB384;
     --color-cream: #F2F1EB;
-    --color-light-yellow: #F0EDD4;
-    --color-beige: #F0EDD4;
+    --color-light-yellow: #EEECDA;
+    --color-beige: #C8B6A6;
+    --color-dark-brown: #6B5B51;
 
     /* fonts */     
     --font-outfit: 'outfit', sans-serif;
