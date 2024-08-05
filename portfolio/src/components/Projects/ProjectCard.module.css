@@ -5,6 +5,7 @@
     flex-direction: column;
     border-radius: 10px;
     background-color: var(--color-white);
+    color: var(--color-medium-grey);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
     padding: 18px 24px;
     width: 350px;
@@ -14,6 +15,12 @@
 
 .title {
     font-size: clamp(1rem, 1.5vw, 2rem);
+    text-align: center;
+    color: var(--color-dark-brown);
+}
+
+.subtitle {
+    font-size: clamp(1rem, 1vw, 1rem);
     text-align: center;
     color: var(--color-dark-brown);
 }
@@ -28,8 +35,9 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap; /* content will turn into a column - dont need media query */
-    gap: 5px;
+    gap: 10px; /* space between items */
     list-style: none; /* remove bullet points */
+    justify-content: center;
 }
 
 .skill {

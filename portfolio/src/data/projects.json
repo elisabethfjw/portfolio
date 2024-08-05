@@ -1,20 +1,23 @@
 [
     {
       "title": "SustainWebable",
-      "description": "This is a project made to learn the latest languages by building an app.",
+      "subtitle": "HackSingapore 2023 - 2nd Runner Up (Sustainability)",
+      "description": "Android application that helps consumers and developers measure their carbon footprint",
       "skills": ["Google Firebase", "Java", "Web Carbon API"],
       "github": "https://github.com/Eqedos/SustainWebable"  
     },
     {
       "title": "ECOde",
-      "description": "This is a project made to learn the latest languages by building an app.",
+      "subtitle": "HackSingapore 2023 - 1st Runner Up (Sustainability)",
+      "description": "Web application that helps developers write more sustainable code.",
       "skills": ["React", "Express", "Node"],
       "github": "https://github.com/Eqedos/WTHFinal"
     },
     {
       "title": "TFLEaRN Bot",
-      "description": "Recommendation system using User-to-User collaborative filtering algorithm.",
-      "skills": ["Python"],
+      "subtitle": "HackSingapore 2023 - 1st Runner Up (Sustainability)",
+      "description": "Telegram bot prototype to help policyholders easily manage their insurance",
+      "skills": ["Prototyping", "Smart Contracts"],
       "github": "https://www.github.com"
     }
 ]
