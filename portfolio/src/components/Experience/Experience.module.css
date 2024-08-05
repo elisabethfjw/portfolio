@@ -1,82 +1,83 @@
 @import '../../vars.css';
 
 .container {
-    position: relative; /* relative to parent */
-    border-radius: 15px; /* round corners */
-    padding: 75px;
-    margin-left: 10%; /* 10% from left */
-    margin-right: 10%;  /* 10% from right */
-    height: 100vh; /* 100% of viewport height */
-    scroll-snap-align: start;
-}
-
-.title {
-    color: var(--color-text);
-    font-size: 35px;
-    font-weight: 700;
-}
-
-.content {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.list {
-    color: var(--color-text);   
     display: flex;
     flex-direction: column;
-    gap: 50px;
-}
-
-.listItem {
-    display: flex;
-    flex-direction: row;
     align-items: center;
-    border-radius: 20px;
-    list-style: none;
-    padding: 25px;
-    background-image: linear-gradient(90deg, var(--color-light-grey) 0%, rgba(255,255,255,0) 100%);
-    background-size: 0 100%; /* no gradient */
-    background-repeat: no-repeat;
-    transition: 0.4s;
+    justify-content: center;
+    height: 100vh; /* 100% of viewport height */
+    width: 100vw; /* 100% of viewport width */
+    scroll-snap-align: start;
+    background-color: var(--color-cream);
 
 }
-.listItem:hover {
-    background-size: 100% 100%; /* full gradient */
-    transition: background-size 0.5s;
+.title {
+    font-size: clamp(1.5rem, 2vw, 2.5rem);
+    color: var(--color-dark-green);
+    text-align: center;
 }
-
-.listItem h3 {
-    font-size: 25px;
-    font-weight: 700;
+.box {
+    position: center;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+}
+.boxTitle {
+    position: center;
+    font-size: clamp(1rem, 1.5vw, 2rem);
+    color: var(--color-dark-green);
+}
+.boxSubtitle {
+    position: center;
+    font-size: clamp(1rem, 1.5vw, 2rem);;
     color: var(--color-dark-grey);
 }
+.boxItem {
+    position: center;
+    margin-left: 60px;
+    color: var(--color-dark-grey);
 
-.item {
-    margin-left: 20px;
-    font-family: var(--outfit-regular);
+}
+.sunflowerImg {
+    width: 20%;
+}
+@media screen and (max-width: 830px) {
+    .box {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+
+    .boxTitle {
+        font-size: clamp(1.2rem, 1.8vw, 2rem); /* Adjust font size for smaller screens */
+    }
+
+    .boxSubtitle {
+        font-size: clamp(0.9rem, 1.3vw, 1.8rem); /* Adjust font size for smaller screens */
+    }
+
+    .boxItem {
+        margin-left: 5px; /* Adjust margin for smaller screens */
+    }
+    .sunflowerImg {
+        width: 30%; /* Adjust image size for smaller screens */
+    }
 }
 
-@media screen and (max-width:830px) {
+@media screen and (max-width: 480px) {
     .container {
-        background: transparent; 
-        padding-left: 0;
-        padding-right: 0;
+        padding: 10px; /* Reduce padding for very small screens */
     }
 
-    .content {
-        flex-direction: column;
+    .title {
+        font-size: 30px; /* Adjust title font size for very small screens */
     }
 
-    .listItem {
-        margin-top: 20px;
+    .box {
+        width: 100%; /* Ensure box takes full width within container */
+        padding: 10px; /* Reduce padding for very small screens */
     }
 
-    .item {
-        padding-left: 0;
-        padding-right: 0;
+    .sunflowerImg {
+        display:none; /* Adjust image size for very small screens */
     }
-    
 }
+
