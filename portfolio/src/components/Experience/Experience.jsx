@@ -5,9 +5,9 @@ import sunflowerImg from '../../../assets/header/sunflower.png';
 export const Experience = () => {
   return (
     <section className={styles.container} id='timeline'>
-        <h2 className={styles.title}>experience</h2>
+        <p className={styles.title}>experience</p>
         <div className={styles.box}>
-                <div className={styles.boxTitle}><h3>Data Science Intern</h3></div>
+                <div className={styles.boxTitle}><h4>Data Science Intern</h4></div>
                 <div className={styles.boxSubtitle}>
                     <h4>Azendian Solutions</h4>
                     <p>July 2024 - Present</p>
@@ -21,7 +21,7 @@ export const Experience = () => {
                 </div>
         </div>
         <div className={styles.box}>
-                <div className={styles.boxTitle}><h3>Business Analyst Intern</h3></div>
+                <div className={styles.boxTitle}><h4>Business Analyst Intern</h4></div>
                 <div className={styles.boxSubtitle}>
                     <h4>Accenture</h4>
                     <p>August - December 2023</p>

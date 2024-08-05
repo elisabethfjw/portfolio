@@ -13,6 +13,7 @@
 }
 .title {
     font-size: clamp(1.5rem, 2vw, 2.5rem);
+    font-weight: bold;
     color: var(--color-dark-green);
     text-align: center;
 }
@@ -24,18 +25,18 @@
 }
 .boxTitle {
     position: center;
-    font-size: clamp(1rem, 1.5vw, 2rem);
+    font-size: clamp(1.5rem, 1vw, 1rem);
     color: var(--color-dark-green);
 }
 .boxSubtitle {
     position: center;
-    font-size: clamp(1rem, 1.5vw, 2rem);;
-    color: var(--color-dark-grey);
+    font-size: clamp(1rem, 1vw, 2rem);
+    color: var(--color-medium-grey);
 }
 .boxItem {
     position: center;
     margin-left: 60px;
-    color: var(--color-dark-grey);
+    color: var(--color-medium-grey);
 
 }
 .sunflowerImg {
