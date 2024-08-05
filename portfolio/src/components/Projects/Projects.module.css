@@ -1,10 +1,11 @@
 @import "../../vars.css";
 
 .container {
-    background-color: var(--color-light-green);
+    background-color: var(--color-beige);
     display: flex;
-    flex-direction: row;
-    justify-content: center; /* center content with respect to */
+    flex-direction: column; /* Stack items in projects page vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
     height: 100vh; /* 100% of viewport height */
     width: 100vw; /* 100% of viewport width */
     scroll-snap-align: start;
@@ -12,17 +13,48 @@
 
 .title {
     font-size: 35px;
-    font-weight: 700;
+    text-align: center;
     color: var(--color-dark-grey);
+    padding: 10px; /* Add padding (space inside title) to title */
 }
 
 .projects {
-    margin-top: 30px;
-    display: flex; /* Flexbox */
+    display: flex; 
     flex-direction: row; 
-    /* flex-wrap: wrap; */
     align-items: center;
     justify-content: center;
-    gap: 15px;
-    width: 50%;
+    gap: 20px; /* Add space between projectCards */
+    width: 70%;
+    max-height: calc(100vh - 40px);
+    padding: 20px; 
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .title {
+        font-size: 30px; /* Decrease font size for medium screens */
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .container {
+        padding: 20px;
+    }
+
+    .title {
+        font-size: 25px; /* Decrease font size for smaller screens */
+    }
+
+    .projects {
+        flex-direction: column;
+        width: 80%; /* Adjust width for better fit */
+        padding-bottom: 10px; /* Add padding to bottom of projects */
+        overflow-y: auto; /* Enable vertical scrolling if content overflows */  
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .title {
+        font-size: 20px; /* Further decrease font size for very small screens */
+    }
 }

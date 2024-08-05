@@ -4,20 +4,39 @@
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    background-color: var(--color-cream);
+    background-color: var(--color-white);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
     padding: 18px 24px;
-    max-width: 350px;
+    width: 350px;
+    height: 350px; 
+    justify-content: space-between; /* This will distribute space between children */
+    flex: 1 1 auto; /* Allow cards to grow and shrink */
+    opacity: 0;
+    animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1; /* Fade in to fully visible */
+    }
+}
+
+.container:nth-child(1) {
+    animation-delay: 0.2s;
+}
+.container:nth-child(2) {
+    animation-delay: 0.4s;
+}
+.container:nth-child(3) {
+    animation-delay: 0.6s;
 }
 
 .title {
-    font-size: 25px;
-    font-weight: 700;
+    font-size: clamp(1rem, 1.5vw, 2rem);
+    text-align: center;
 }
 
 .description {
-    font-size: 25px;
-    font-weight: 400;
     margin-top: 10px;
 }
 
@@ -39,19 +58,13 @@
     padding: 2px 20px;
 }
 
-.links {
-    width: 100%;
-    margin-top: 25px;
-    display: flex;
-    justify-content: space-around;
+.button {
+    text-decoration: none; /* no underline */
+    border-radius: 50px; /* round corners */
+    background-color: var(--color-light-grey); /* dark grey background */
+    color: var(--color-text); /* dark grey text */
+    padding: 10px 5px; /* padding */
+    text-align: center;
+    margin-bottom: 10px;
 }
 
-.link {
-    text-decoration: none;
-    color: var(--color-text);
-    font-size: 30px;
-    font-weight: 600;
-    border-radius: 100px;
-    background: var(--color-white);
-    padding: 1px 20px;
-}
