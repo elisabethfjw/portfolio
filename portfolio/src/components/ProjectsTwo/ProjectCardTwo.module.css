@@ -29,7 +29,7 @@
     flex-direction: row;
     flex-wrap: wrap; /* content will turn into a column - dont need media query */
     gap: 5px;
-    list-style: none; /* remove bullet points */
+    list-style: none;
 }
 
 .skill {
