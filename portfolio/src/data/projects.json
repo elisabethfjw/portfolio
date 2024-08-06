@@ -4,20 +4,47 @@
       "subtitle": "HackSingapore 2023 - 2nd Runner Up (Sustainability)",
       "description": "Android application that helps consumers and developers measure their carbon footprint",
       "skills": ["Google Firebase", "Java", "Web Carbon API"],
-      "github": "https://github.com/Eqedos/SustainWebable"  
+      "github": "https://github.com/Eqedos/SustainWebable",
+      "slidesLink": "../assets/projects/SustainWebable.pdf",
+      "slides": [
+        {
+            "src": "../assets/carousel/sustainwebable1.png",
+            "alt": "sustainwebable1"
+        },
+        {
+            "src": "../assets/carousel/sustainwebable2.png",
+            "alt": "sustainwebable2"
+        }
+      ]
     },
     {
       "title": "ECOde",
-      "subtitle": "HackSingapore 2023 - 1st Runner Up (Sustainability)",
-      "description": "Web application that helps developers write more sustainable code.",
-      "skills": ["React", "Express", "Node"],
-      "github": "https://github.com/Eqedos/WTHFinal"
-    },
-    {
-      "title": "TFLEaRN Bot",
-      "subtitle": "HackSingapore 2023 - 1st Runner Up (Sustainability)",
-      "description": "Telegram bot prototype to help policyholders easily manage their insurance",
-      "skills": ["Prototyping", "Smart Contracts"],
-      "github": "https://www.github.com"
+      "subtitle": "SUTD What The Hack 2023 - Winner (Circular Economy and Sustainable Living)",
+      "description": "Web application that helps developers write more sustainable code",
+      "skills": ["React", "Express.js", "Node.js"],
+      "github": "https://github.com/Eqedos/WTHFinal",
+      "slidesLink": "../assets/projects/ECOde.pdf",
+      "slides": [
+        {
+            "src": "../assets/carousel/ecode1.png",
+            "alt": "sustainwebable1"
+        },
+        {
+            "src": "../assets/carousel/ecode2.png",
+            "alt": "sustainwebable2"
+        },
+        {
+            "src": "../assets/carousel/ecode3.png",
+            "alt": "sustainwebable3"
+        },
+        {
+            "src": "../assets/carousel/ecode4.png",
+            "alt": "sustainwebable4"
+        },
+        {
+            "src": "../assets/carousel/ecode5.png",
+            "alt": "sustainwebable5"
+        }
+      ]
     }
 ]

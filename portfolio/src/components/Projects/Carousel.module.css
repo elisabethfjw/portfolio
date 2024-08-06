@@ -1,0 +1,55 @@
+.carouselContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Take full width of the card */
+  height: 60%; /* Adjust height as needed to fit within the card */
+  overflow: hidden; /* Ensure any overflow content is hidden */
+  border-radius: 10px;
+  background-color: var(--color-white);
+  padding: 0 2rem;
+}
+
+.slide {
+  border-radius: 0.5rem;
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Ensure the image covers the container without stretching */
+  object-position: center; /* Center the image within the container */
+}
+
+.slideHidden {
+  display: none;
+}
+
+.arrow {
+  position: absolute;
+  background-color: var(--color-light-grey); /* Set background color to light grey */
+  width: 4rem;
+  height: 4rem; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(0px 0px 5px #a4a4a4);
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
+
+.arrowLeft {
+  left: 3rem; /* Position of left arrow */
+  margin-right: 1rem;
+}
+
+.arrowRight {
+  right: 3rem; /* Position of right arrow */
+  margin-left: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+  .carouselContainer {
+    display: none;
+  }
+}

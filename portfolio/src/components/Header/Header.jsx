@@ -1,5 +1,4 @@
 import React from 'react'
-import { getImageURL } from '../../utils'
 import styles from './Header.module.css'
 import resume from '../../../assets/header/ElisabethFung_Resume.pdf'
 import flowers from '../../../assets/header/flowers.png'

@@ -23,13 +23,11 @@
     flex-direction: row; 
     align-items: center;
     justify-content: center;
-    gap: 20px; /* Add space between projectCards */
+    gap: 40px; /* Add space between projectCards */
     width: 70%;
     max-height: calc(100vh - 40px);
     padding: 20px; 
-    display: grid; /* Use grid layout */
-    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
-    gap: 20px; /* Space between grid items */
+    grid-template-columns: repeat(2, 1fr); /* 3 equal columns */
     
 }
 
