@@ -7,8 +7,8 @@
     color: var(--color-medium-grey);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
     padding: 18px 24px;
-    width: clamp(200px, 90vw, 280px); 
-    height: clamp(300px, 90vh, 500px); 
+    width: clamp(200px, 70vw, 300px); 
+    height: clamp(200px, 70vh, 500px); 
     justify-content: space-between;
 }
 
