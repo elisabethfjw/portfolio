@@ -16,8 +16,8 @@
     {
       "title": "Landlord-Tenant Portal",
       "subtitle": "SUTD Term 5 project",
-      "description": "Tenants submit service tickets, landlords assign them to staff who upload quotations, and tenants can accept, reject, or provide feedback on the work.",
-      "skills": ["React.js", "JavaScript", "Supabase", "Node.js"],
+      "description": "Work order management system for tenants and landlords.",
+      "skills": ["React.js", "JavaScript", "Node.js", "Supabase"],
       "slidesLink": "../assets/projects/NTUC Hackathon.pdf"
     }
 ]
