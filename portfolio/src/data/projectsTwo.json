@@ -1,20 +1,23 @@
 [
     {
-      "title": "SustainWebable",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["Google Firebase", "Java", "Web Carbon API"],
-      "github": "https://github.com/Eqedos/SustainWebable"  
-    },
-    {
-      "title": "ECOde",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "github": "https://github.com/Eqedos/WTHFinal"
-    },
-    {
       "title": "TFLEaRN Bot",
-      "description": "Recommendation system using User-to-User collaborative filtering algorithm.",
-      "skills": ["Python"],
-      "github": "https://www.github.com"
+      "subtitle": "NTUC Income Future X Hackathon 2022 - Best Business Use Case",
+      "description": "The TFLEaRN Bot allows policyholders to use their personalized token to easily manage their insurance.",
+      "skills": ["Prototyping"],
+      "slidesLink": "../assets/projects/NTUC Hackathon.pdf"
+    },
+    {
+      "title": "Reccomendation System",
+      "subtitle": "User-to-User Collaborative Filtering",
+      "description": "Reccomend new movies to users based on the preferences of similar users. Cosine similarity is used to form the neighbourhood of similar users.",
+      "skills": ["Python", "Unsupervised ML"],
+      "slidesLink": "https://github.com/elisabethfjw/u2u-collaborative-filtering"
+    },
+    {
+      "title": "Landlord-Tenant Portal",
+      "subtitle": "SUTD Term 5 project",
+      "description": "Tenants submit service tickets, landlords assign them to staff who upload quotations, and tenants can accept, reject, or provide feedback on the work.",
+      "skills": ["React.js", "JavaScript", "Supabase", "Node.js"],
+      "slidesLink": "../assets/projects/NTUC Hackathon.pdf"
     }
 ]

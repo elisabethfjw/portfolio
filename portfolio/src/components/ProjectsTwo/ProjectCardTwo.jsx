@@ -1,18 +1,20 @@
 import React from 'react'
-// import css module into corresponding component to prevent overriding of styles between components
 import styles from './ProjectCardTwo.module.css'  
-// destructuring the project prop
-export const ProjectCardTwo = ({project : {title, description, skills, github}}) => {
+
+export const ProjectCardTwo = ({project : {title, subtitle, description, skills, slidesLink}}) => {
   return ( 
-  <div className={styles.container}>
-    <h3 className={styles.title}>{title}</h3>
-    <p className={styles.description}>{description}</p>
-    <ul className={styles.skills}>  
-      {skills.map((skill, id) => (
-        <li key={id} className={styles.skill}>{skill}</li>
-      ))}
-    </ul>   
-    <a href={github} className={styles.button} target="_blank" rel="noopener noreferrer">Github</a>
-  </div>
-  );
+    <div className={styles.container}>
+      <h3 className={styles.title}>{title}</h3>
+      <p className={styles.subtitle}>{subtitle}</p>
+      <p className={styles.description}>{description}</p>
+      <ul className={styles.skills}>  
+        {skills.map((skill, id) => (
+          <li key={id} className={styles.skill}>{skill}</li>
+        ))}
+      </ul> 
+      <div className={styles.buttonContainer}>
+        <a href={slidesLink} className={styles.button} target="_blank" rel="noopener noreferrer">View More</a>
+      </div>
+    </div>
+    );
 };
