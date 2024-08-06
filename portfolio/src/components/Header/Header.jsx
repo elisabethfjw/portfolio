@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Header.module.css'
-import resume from '../../../assets/header/ElisabethFung_Resume.pdf'
-import flowers from '../../../assets/header/flowers.png'
+import resume from '/assets/ElisabethFung_Resume.pdf'
+import flowers from '/assets/flowers.png'
 
 export const Header = () => {
   return (

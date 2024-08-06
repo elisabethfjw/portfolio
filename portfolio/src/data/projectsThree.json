@@ -4,14 +4,14 @@
       "subtitle": "NTUC Income Future X Hackathon 2022 - Best Business Use Case",
       "description": "The TFLEaRN Bot allows policyholders to use their personalized token to easily manage their insurance",
       "skills": ["Prototyping"],
-      "slidesLink": "../assets/projects/NTUC Hackathon.pdf"
+      "slidesLink": "/assets/NTUC Hackathon.pdf"
     },
     {
       "title": "Overcomers",
       "subtitle": "SUTD Design Odyssey",
       "description": "Figma prototype to help special needs educators make social stories for childern with autism.",
       "skills": ["Wireframing", "Prototyping", "Design Thinking", "UI/UX"],
-      "slidesLink": "../assets/projects/overcomers.pdf"
+      "slidesLink": "/assets/overcomers.pdf"
     },
     {
       "title": "Landlord-Tenant Portal",
