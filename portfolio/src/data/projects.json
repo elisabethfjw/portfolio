@@ -8,27 +8,27 @@
       "slidesLink": "../assets/projects/SustainWebable.pdf",
       "slides": [
         {
-            "src": "../assets/carousel/sustainwebable1.png",
+            "src": "/assets/carousel/sustainwebable1.png",
             "alt": "sustainwebable1"
         },
         {
-            "src": "../assets/carousel/sustainwebable2.png",
+            "src": "/assets/carousel/sustainwebable2.png",
             "alt": "sustainwebable2"
         },
         {
-            "src": "../assets/carousel/sustainwebable3.png",
+            "src": "/assets/carousel/sustainwebable3.png",
             "alt": "sustainwebable3"
         },
         {
-            "src": "../assets/carousel/sustainwebable4.png",
+            "src": "/assets/carousel/sustainwebable4.png",
             "alt": "sustainwebable4"
         },
         {
-            "src": "../assets/carousel/sustainwebable5.png",
+            "src": "/assets/carousel/sustainwebable5.png",
             "alt": "sustainwebable5"
         },
         {
-            "src": "../assets/carousel/sustainwebable6.png",
+            "src": "/assets/carousel/sustainwebable6.png",
             "alt": "sustainwebable6"
         }
       ]
@@ -42,23 +42,23 @@
       "slidesLink": "../assets/projects/ECOde.pdf",
       "slides": [
         {
-            "src": "../assets/carousel/ecode1.png",
-            "alt": "sustainwebable1"
+            "src": "/assets/carousel/ecode1.png",
+            "alt": "ecode1"
         },
         {
-            "src": "../assets/carousel/ecode2.png",
-            "alt": "sustainwebable2"
+            "src": "/assets/carousel/ecode2.png",
+            "alt": "ecode2"
         },
         {
-            "src": "../assets/carousel/ecode3.png",
-            "alt": "sustainwebable3"
+            "src": "/assets/carousel/ecode3.png",
+            "alt": "ecode3"
         },
         {
-            "src": "../assets/carousel/ecode4.png",
-            "alt": "sustainwebable4"
+            "src": "/assets/carousel/ecode4.png",
+            "alt": "ecode4"
         },
         {
-            "src": "../assets/carousel/ecode5.png",
+            "src": "/assets/carousel/ecode5.png",
             "alt": "sustainwebable5"
         }
       ]
