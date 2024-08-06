@@ -17,7 +17,7 @@ export const ProjectCard = ({project : {title, subtitle, description, skills, gi
       ))}
     </ul> 
     <div className={styles.buttonContainer}>
-      <a href={slidesLink} className={styles.button}>View More</a>
+      <a href={slidesLink} className={styles.button} target="_blank" rel="noopener noreferrer">View More</a>
       <a href={github} className={styles.button} target="_blank" rel="noopener noreferrer">Github</a>
     </div>
   </div>
