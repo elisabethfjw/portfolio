@@ -24,6 +24,7 @@
     text-align: center;
     color: var(--color-dark-brown);
     margin: 10px;
+    font-style: italic;
 }
 
 .description {
