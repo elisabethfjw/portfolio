@@ -5,7 +5,7 @@
       "description": "Android application that helps consumers and developers measure their carbon footprint.",
       "skills": ["Google Firebase", "Java", "Web Carbon API"],
       "github": "https://github.com/Eqedos/SustainWebable",
-      "slidesLink": "/projects/SustainWebable.pdf",
+      "slidesLink": "/assets/sustainwebable.pdf",
       "slides": [
         {
             "src": "/assets/sustainwebable1.png",
@@ -39,7 +39,7 @@
       "description": "Web application to help developers write more sustainable code.",
       "skills": ["React", "Express.js", "Node.js"],
       "github": "https://github.com/Eqedos/WTHFinal",
-      "slidesLink": "/assets/ECOde.pdf",
+      "slidesLink": "/assets/ecode.pdf",
       "slides": [
         {
             "src": "/assets/ecode1.png",
