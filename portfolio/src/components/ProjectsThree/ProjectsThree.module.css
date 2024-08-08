@@ -14,7 +14,7 @@
 
 .projects {
     display: grid; /* Use grid layout */
-    grid-template-columns: repeat(2, 1fr); /* 3 equal columns */
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
     gap: 10px; /* Add space between cards */
     width: 80%;
     max-height: calc(100vh - 40px);

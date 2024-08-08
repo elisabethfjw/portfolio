@@ -1,7 +1,7 @@
 @import "../../vars.css";
 
 .container {
-    background-color: var(--color-light-yellow);
+    background-color: var(--color-beige);
     display: flex;
     flex-direction: column; /* Stack items in projects page vertically */
     justify-content: center; /* Center content vertically */

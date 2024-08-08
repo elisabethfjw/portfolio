@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types';
-import styles from './ProjectCardTwo.module.css'  
+import styles from './ProjectCardThree.module.css'  
 
-export const ProjectCardTwo = ({project : {title, subtitle, description, skills, slidesLink}}) => {
+export const ProjectCardThree = ({project : {title, subtitle, description, skills, slidesLink}}) => {
   return ( 
     <div className={styles.container}>
       <h3 className={styles.title}>{title}</h3>
@@ -20,7 +20,7 @@ export const ProjectCardTwo = ({project : {title, subtitle, description, skills,
     );
 };
 
-ProjectCardTwo.propTypes = {
+ProjectCardThree.propTypes = {
   project: PropTypes.shape({
     title: PropTypes.string.isRequired,
     subtitle: PropTypes.string.isRequired,
