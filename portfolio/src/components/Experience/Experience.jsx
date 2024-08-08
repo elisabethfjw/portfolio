@@ -15,8 +15,7 @@ export const Experience = () => {
                 <div className={styles.boxItem}>
                     <ul>
                         <li className={styles.item}>Created a Power BI dashboard with a streaming dataset that updates dashboards in real time.</li> 
-                        <li className={styles.item}>Created a PowerBI dashboard using a DirectQuery data source.</li>
-                        <li className={styles.item}>Used Power Automate to refresh the dataset.</li>
+                        <li className={styles.item}>Created a PowerBI dashboard using a PostgreSQL data source, using Power Automate to refresh the dataset.</li>
                         <li className={styles.item}>Prepared PostgreSQL data to be used by Chart.js.</li>
                         <li className={styles.item}>Researched Predictive Maintenance and Fault Detection models.</li>
                     </ul>
