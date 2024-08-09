@@ -12,12 +12,13 @@ export const Experience = () => {
                     <h4>Azendian Solutions</h4>
                     <p>July 2024 - Present</p>
                 </div>
-                <div className={styles.boxItem}>
-                    <ul>
-                        <li className={styles.item}>Created a Power BI dashboard with a streaming dataset that updates dashboards in real time.</li> 
-                        <li className={styles.item}>Created a PowerBI dashboard using a PostgreSQL data source, using Power Automate to refresh the dataset.</li>
-                        <li className={styles.item}>Prepared PostgreSQL data to be used by Chart.js.</li>
-                        <li className={styles.item}>Researched Predictive Maintenance and Fault Detection models.</li>
+                <div>
+                    <ul className={styles.boxItem}>
+                        <li className={styles.item}>PowerBI</li> 
+                        <li className={styles.item}>Power Automate</li>
+                        <li className={styles.item}>PostgreSQL</li>
+                        <li className={styles.item}>JavaScript</li>
+                        <li className={styles.item}>Research</li>
                     </ul>
                 </div>
         </div>
@@ -27,12 +28,14 @@ export const Experience = () => {
                     <h4>Accenture</h4>
                     <p>August - December 2023</p>
                 </div>
-                <div className={styles.boxItem}>
-                    <ul>
-                        <li className={styles.item}>Created a technical design file to convey business requirements.</li>
-                        <li className={styles.item}>Implemented Java code changes in the SPRING framework (SpringBatch and SpringBoot).</li>
-                        <li className={styles.item}>Tested in controlled environments (SIT and UAT).</li>
-                        <li className={styles.item}>Identified and fixed bugs by analyzing logs via AWS CloudWatch and querying the database using PostgreSQL.</li>  
+                <div>
+                    <ul className={styles.boxItem}>
+                        <li className={styles.item}>Java</li>
+                        <li className={styles.item}>Springbatch</li>
+                        <li className={styles.item}>Springboot</li>
+                        <li className={styles.item}>PostgreSQL</li>
+                        <li className={styles.item}>Testing (SIT, UAT)</li>
+                        <li className={styles.item}>Documentation</li>
                     </ul>
                 </div>
         </div>

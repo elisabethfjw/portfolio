@@ -1,6 +1,7 @@
 :root{
     /* colors */
     --color-bg: #fff;
+    --color-grey: #dadada;
     --color-light-grey: #e7e7e7;
     --color-medium-grey: #525252;
     --color-dark-grey: #333;
@@ -9,7 +10,12 @@
     --color-light-green: #d3d3b1;
     --color-medium-green: #9EB384;
     --color-cream: #F2F1EB;
-    --color-light-yellow: 	#fff7da;
+    --color-light-yellow: #fff7da;
+    --color-yellow:	#f6e8b3;
+    --color-orange: #dd9867;
+    --color-light-orange: #fbbf77;
+    --color-dark-orange: #bf5700;
+    --color-dark-yellow: #f2d65c;
     --color-beige: #EBE3D5;
     --color-dark-brown: #6B5B51;
 
