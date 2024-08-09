@@ -59,41 +59,22 @@
 }
 @media screen and (max-width: 830px) {
     .box {
-        width: 90%; /* Adjust width for smaller screens */
+        width: 90%; 
     }
 
     .boxTitle {
-        font-size: clamp(1.2rem, 1.8vw, 2rem); /* Adjust font size for smaller screens */
+        font-size: clamp(1.2rem, 1.8vw, 2rem);
     }
 
     .boxSubtitle {
-        font-size: clamp(0.9rem, 1.3vw, 1.8rem); /* Adjust font size for smaller screens */
+        font-size: clamp(0.9rem, 1.3vw, 1.8rem); 
     }
 
     .boxItem {
-        margin-left: 5px; /* Adjust margin for smaller screens */
+        margin-left: 5px; 
     }
     .sunflowerImg {
-        width: 30%; /* Adjust image size for smaller screens */
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .container {
-        padding: 10px; /* Reduce padding for very small screens */
-    }
-
-    .title {
-        font-size: 30px; /* Adjust title font size for very small screens */
-    }
-
-    .box {
-        width: 100%; /* Ensure box takes full width within container */
-        padding: 10px; /* Reduce padding for very small screens */
-    }
-
-    .sunflowerImg {
-        display:none; /* Adjust image size for very small screens */
+        display: none;
     }
 }
 
