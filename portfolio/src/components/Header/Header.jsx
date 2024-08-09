@@ -7,12 +7,12 @@ export const Header = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-          <h1 className={styles.title}>Elisabeth Fung</h1>
+          <h1 className={styles.title}>elisabeth fung</h1>
           <p className={styles.description}>data science | artifical intelligence | design</p>
           <div className={styles.contact}>
-            <a href='mailto:elisabeth_fung@mymail.sutd.edu.sg' className={styles.button}>Email</a>
-            <a href='https://www.linkedin.com/in/elisabeth-fung/' className={styles.button}>LinkedIn</a>
-            <a href={resume} className={styles.button} target="_blank" rel="noopener noreferrer">Resume</a>
+            <a href='mailto:elisabeth_fung@mymail.sutd.edu.sg' className={styles.button}>email</a>
+            <a href='https://www.linkedin.com/in/elisabeth-fung/' className={styles.button}>linkedIn</a>
+            <a href={resume} className={styles.button} target="_blank" rel="noopener noreferrer">resume</a>
           </div>
       </div>
       <img src={flowers} alt='Header Image' className={styles.headerImg}/>  

@@ -3,8 +3,9 @@
 .container {
     position: relative; /* relative to parent */
     display: flex; /* flexbox */
-    align-items: center;    
-    justify-content: center; /* center content */
+    flex-direction: row; /* make image beside text (optional as it is the default option for flexbox) */
+    align-items: center; /* center content along cross axis */
+    justify-content: center; /* center content along main axis */
     z-index: 1; /* above everything else */
     height: 100vh; /* 100% of viewport height */
     width: 100vw; /* 100% of viewport width */
@@ -14,8 +15,8 @@
 
 .content {
     display: flex; /* flexbox */
-    flex-direction: column; /* column */
-    align-items: flex-start; /* align left */
+    flex-direction: column; /* make text in a column */
+    align-items: flex-start; /* align text to the left */
     color: var(--color-dark-grey); /* text color */
     z-index: 1; /* above everything else */
 }
@@ -23,14 +24,12 @@
 .title {
     font-size: 72px;
     font-weight: 900;
-    font-family: var(--outfit);
     padding-right: 40px;
     color: var(--color-dark-grey);
 }
 
 .description {
     font-size: 20px;
-    font-family: var(--outfit);
     margin-bottom: 15px;
     color: var(--color-medium-grey);
 }
@@ -65,8 +64,15 @@
     .container {
       flex-direction: column-reverse;
     }
-  
     .content {
       align-items: center;
+    }
+    .title {
+      font-size: 48px;
+      padding-right: 0;
+      text-align: center;
+    }
+    .headerImg {
+      display: none;
     }
   }
