@@ -47,3 +47,10 @@
   right: 3rem; /* Position of right arrow */
   margin-left: 1rem;
 }
+
+@media screen and (width <= 900px) {
+  .carouselContainer {
+    display: none;
+  }
+  
+}
