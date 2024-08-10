@@ -10,7 +10,7 @@
     padding: 10px; /* 10px top & bottom, 20px left & right */
     width: 400px;
     height: 500px; 
-    justify-content: space-between; /* This will distribute space between children */
+    justify-content: space-between;  
 }
 
 .title {
@@ -28,13 +28,13 @@
 }
 
 .description {
-    padding: 5px;
     text-align: center;
+    padding: 5px;
 }
 
 .skills {
     width: 100%;
-    margin-top: 15px;
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap; /* content will turn into a column - dont need media query */
@@ -88,7 +88,7 @@
     color: var(--color-white); /* white text */
 }
 
-/* if viewport smaller than 830px */
+/* if viewport smaller than 900px */
 @media screen and (width <= 900px) {
     .container {
         width: 300px;
