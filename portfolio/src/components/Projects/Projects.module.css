@@ -1,7 +1,6 @@
 @import "../../vars.css";
 
 .container {
-    background-color: var(--color-beige);
     display: flex;
     flex-direction: column; /* Stack items in projects page vertically */
     justify-content: center; /* Center content vertically */
@@ -9,13 +8,14 @@
     height: 100vh; /* 100% of viewport height */
     width: 100vw; /* 100% of viewport width */
     scroll-snap-align: start;
+    background-color: var(--color-beige);
 }
 
 .title {
     font-size: 35px;
     text-align: center;
     color: var(--color-dark-brown);
-    padding: 10px; /* Add padding (space inside title) to title */
+    padding-top: 20px; /* Add padding (space inside title) to title */
 }
 
 .projects {
@@ -23,39 +23,24 @@
     flex-direction: row; 
     align-items: center;
     justify-content: center;
-    gap: 40px; /* Add space between projectCards */
     width: 70%;
-    max-height: calc(100vh - 40px);
+    gap: 30px; /* space between projectCards */
     padding: 20px; 
-    grid-template-columns: repeat(2, 1fr); /* 3 equal columns */
+    grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
     
 }
 
-@media screen and (max-width: 1200px) {
-    .title {
-        font-size: 30px; /* Decrease font size for medium screens */
-    }
-}
-
-@media screen and (max-width: 830px) {
+@media screen and (width <= 900px) {
     .container {
         padding: 20px;
     }
 
     .title {
-        font-size: 25px; /* Decrease font size for smaller screens */
+        font-size: 25px;
     }
 
     .projects {
         flex-direction: column;
-        width: 80%; /* Adjust width for better fit */
-        padding-bottom: 10px; /* Add padding to bottom of projects */
-        overflow-y: auto; /* Enable vertical scrolling if content overflows */  
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .title {
-        font-size: 20px; /* Further decrease font size for very small screens */
+        gap: 10px;
     }
 }

@@ -9,7 +9,7 @@ export const ProjectCard = ({project : {title, subtitle, description, skills, gi
   <div className={styles.container}>
     <h3 className={styles.title}>{title}</h3>
     <p className={styles.subtitle}>{subtitle}</p>
-    <Carousel data={slides} /> 
+    <Carousel data={slides} className={styles.carousel} /> 
     <p className={styles.description}>{description}</p>
     <ul className={styles.skills}>  
       {skills.map((skill, id) => (
