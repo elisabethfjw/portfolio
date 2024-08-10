@@ -26,13 +26,6 @@
     width: 70%;
     gap: 30px; /* space between projectCards */
     padding: 20px; 
-    padding: 20px; 
-    grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
-    
-    padding: 20px;     
-    grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
-    
-}
 
 @media screen and (width <= 900px) {
     .container {

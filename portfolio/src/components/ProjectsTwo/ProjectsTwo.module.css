@@ -15,7 +15,7 @@
     font-size: 35px;
     text-align: center;
     color: var(--color-dark-brown);
-    padding: 20px; /* Add padding (space inside title) to title */
+    padding-top: 20px;
 }
 
 .projects {
