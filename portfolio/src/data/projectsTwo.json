@@ -2,14 +2,14 @@
   {
     "title": "Reccomendation System",
     "subtitle": "User-to-User Collaborative Filtering",
-    "description": "Reccomend new movies to users based on the preferences of similar users. Cosine similarity is used to form the neighbourhood of similar users.",
+    "description": "Reccomend new movies to users based on the preferences of similar users.",
     "skills": ["Python", "Unsupervised ML"],
     "slidesLink": "https://github.com/elisabethfjw/u2u-collaborative-filtering"
   },
   {
     "title": "Diagnostic System",
     "subtitle": "Classification of Malignant cells",
-    "description": "Implemented a diagnostic system using a Rule-based Classifier, Random Forest Classifier and Gaussian Naive Bayes to classify malignant cells and evaluated each model's performance.",
+    "description": "Implemented a diagnostic system using a Rule-based Classifier, Random Forest Classifier and Gaussian Naive Bayes.",
     "skills": ["Python", "Supervised ML"],
     "slidesLink": "https://github.com/elisabethfjw/diagnostic_system"
   }
