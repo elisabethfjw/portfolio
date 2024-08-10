@@ -26,6 +26,7 @@
     width: 70%;
     gap: 30px; /* space between projectCards */
     padding: 20px; 
+}
 
 @media screen and (width <= 900px) {
     .container {
