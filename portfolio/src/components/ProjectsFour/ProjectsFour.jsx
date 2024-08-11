@@ -8,7 +8,7 @@ import styles from './ProjectsFour.module.css';
 export const ProjectsFour = () => {
   return (
     <section className={styles.container}>
-      <h2 className={styles.title}>Web Applications</h2>
+      <h2 className={styles.title}>web applications</h2>
       <div className={styles.projects}>
         {projects.map((project, id) => {
           return (
