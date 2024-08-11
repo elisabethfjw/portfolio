@@ -8,6 +8,7 @@ import styles from './ProjectsThree.module.css';
 export const ProjectsThree = () => {
   return (
     <section className={styles.container}>
+      <h2 className={styles.title}>UI/UX</h2>
       <div className={styles.projects}>
         {projects.map((project, id) => {
           return (

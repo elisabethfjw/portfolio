@@ -1,7 +1,6 @@
 @import "../../vars.css";
 
 .container {
-    background-color: var(--color-beige);
     display: flex;
     flex-direction: column; /* Stack items in projects page vertically */
     justify-content: center; /* Center content vertically */
@@ -9,23 +8,37 @@
     height: 100vh; /* 100% of viewport height */
     width: 100vw; /* 100% of viewport width */
     scroll-snap-align: start;
-    padding: 20px;
+    background-color: var(--color-beige);
+}
+
+.title {
+    font-size: 35px;
+    text-align: center;
+    color: var(--color-dark-brown);
+    padding-top: 20px;
 }
 
 .projects {
-    display: grid; /* Use grid layout */
-    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
-    gap: 10px; /* Add space between cards */
-    width: 80%;
-    max-height: calc(100vh - 40px);
-    justify-items: center; /* Center cards within each grid cell */
-    align-items: center; /* Center cards vertically */
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    gap: 30px; /* space between projectCards */
+    padding: 20px; 
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (width <= 900px) {
+    .container {
+        padding: 20px;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+
     .projects {
-        grid-template-columns: 1fr; /* 1 column */
-        gap: 20px; /* Maintain space between cards */
-        width: 90%; /* Adjust width for smaller screens */
+        flex-direction: column;
+        gap: 10px;
     }
 }
