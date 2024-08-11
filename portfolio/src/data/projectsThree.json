@@ -2,7 +2,7 @@
     {
       "title": "TFLEaRN Bot",
       "subtitle": "NTUC Income Future X Hackathon 2022 - Best Business Use Case",
-      "description": "Telegram bot that helps policyholders easily manage their insurance via a personalised token.",
+      "description": "Telegram bot prototype that helps policyholders easily manage their insurance via a personalised token.",
       "skills": ["Prototyping", "Smart Contracts"],
       "slidesLink": "/assets/NTUC Hackathon.pdf"
     },
@@ -10,7 +10,7 @@
       "title": "Overcomers",
       "subtitle": "SUTD Design Odyssey",
       "description": "Figma prototype that helps special needs educators make social stories for childern with autism.",
-      "skills": ["Wireframing", "Prototyping", "Design Thinking", "UI/UX", "Pitching"],
+      "skills": ["Wireframing", "Prototyping", "Design Thinking"],
       "slidesLink": "/assets/overcomers.pdf"
     }
 ]
