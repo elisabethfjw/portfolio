@@ -3,7 +3,14 @@
       "title": "Landlord-Tenant Portal",
       "subtitle": "SUTD Term 5 project",
       "description": "Work order management system for tenants and landlords.",
-      "skills": ["React.js", "JavaScript", "Node.js", "Supabase"],
+      "skills": ["React", "JavaScript", "Node.js", "Supabase"],
       "slidesLink": "/assets/LandlordTenant.pdf"
+    },
+    {
+      "title": "Personal Portfolio",
+      "subtitle": "React + Vite App",
+      "description": "Personal portfolio website.",
+      "skills": ["React", "JavaScript", "CSS"],
+      "slidesLink": "https://github.com/elisabethfjw/portfolio"
     }
 ]
