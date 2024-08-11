@@ -2,8 +2,8 @@
     {
       "title": "TFLEaRN Bot",
       "subtitle": "NTUC Income Future X Hackathon 2022 - Best Business Use Case",
-      "description": "Telegram bot to help policyholders easily manage their insurance via a personalised token.",
-      "skills": ["Prototyping"],
+      "description": "Telegram bot that helps policyholders easily manage their insurance via a personalised token.",
+      "skills": ["Prototyping", "Smart Contracts"],
       "slidesLink": "/assets/NTUC Hackathon.pdf"
     },
     {
