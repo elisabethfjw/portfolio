@@ -10,7 +10,14 @@
       "title": "Overcomers",
       "subtitle": "SUTD Design Odyssey",
       "description": "Figma prototype that helps special needs educators make social stories for childern with autism.",
-      "skills": ["Wireframing", "Prototyping", "Design Thinking"],
+      "skills": ["User Research", "Wireframing", "Prototyping", "Design Thinking"],
       "slidesLink": "/assets/overcomers.pdf"
+    },
+    {
+      "title": "Redesigning a Bus Stop",
+      "subtitle": "Chalmers University of Technology",
+      "description": "Worked with diverse students to enhance waiting at bus stops in the suburbs using Norman’s 3 Levels of Emotional Design.",
+      "skills": ["User Research", "Wireframing", "Design Thinking"],
+      "slidesLink": "/assets/BusStopRedesign.pdf"
     }
 ]
