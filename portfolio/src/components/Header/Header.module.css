@@ -76,3 +76,9 @@
       display: none;
     }
 }
+
+@media screen and (height <= 600px) {
+    .container {
+        min-height: 600px;
+    }
+}

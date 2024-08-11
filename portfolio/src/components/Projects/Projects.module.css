@@ -5,8 +5,8 @@
     flex-direction: column; /* Stack items in projects page vertically */
     justify-content: center; /* Center content vertically */
     align-items: center; /* Center content horizontally */
-    height: 100vh; /* 100% of viewport height */
-    width: 100vw; /* 100% of viewport width */
+    height: 100%;
+    width: 100%;
     scroll-snap-align: start;
     background-color: var(--color-beige);
 }
@@ -40,5 +40,11 @@
     .projects {
         flex-direction: column;
         gap: 10px;
+    }
+}
+
+@media screen and (height <= 600px) {
+    .container {
+        min-height: 600px;
     }
 }
