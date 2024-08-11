@@ -1,0 +1,9 @@
+[
+    {
+      "title": "Landlord-Tenant Portal",
+      "subtitle": "SUTD Term 5 project",
+      "description": "Work order management system for tenants and landlords.",
+      "skills": ["React.js", "JavaScript", "Node.js", "Supabase"],
+      "slidesLink": "/assets/LandlordTenant.pdf"
+    }
+]
