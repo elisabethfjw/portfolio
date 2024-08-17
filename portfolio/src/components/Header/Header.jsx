@@ -11,11 +11,11 @@ export const Header = () => {
           <p className={styles.description}>data science | artifical intelligence | design</p>
           <div className={styles.contact}>
             <a href='mailto:elisabeth_fung@mymail.sutd.edu.sg' className={styles.button}>email</a>
-            <a href='https://www.linkedin.com/in/elisabeth-fung/' className={styles.button}>linkedIn</a>
-            <a href={resume} className={styles.button} target="_blank" rel="noopener noreferrer">resume</a>
+            <a href='https://www.linkedin.com/in/elisabeth-fung/' className={styles.button} target="_blank" rel="noopener noreferrer">linkedIn</a>
+            <a href='https://github.com/elisabethfjw' className={styles.button} target="_blank" rel="noopener noreferrer">github</a>
           </div>
       </div>
-      <img src={flowers} alt='Header Image' className={styles.headerImg}/>  
+      <img src={flowers} alt='HeaderImg' className={styles.headerImg}/>  
     </section>
   ) 
 };
