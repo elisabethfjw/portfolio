@@ -12,8 +12,7 @@
 
 }
 .title {
-    font-size: clamp(1.5rem, 2vw, 2.5rem);
-    font-weight: bold;
+    font-size: 35px;
     color: var(--color-dark-green);
     text-align: center;
 }
@@ -58,6 +57,9 @@
     width: 20%;
 }
 @media screen and (max-width: 830px) {
+    .title {
+        font-size: 25px;
+    }
     .box {
         width: 90%; 
     }
@@ -81,6 +83,9 @@
 @media screen and (height <= 600px) {
     .container {
         min-height: 600px;
+    }
+    .title {
+        font-size: 25px;
     }
 }
 
