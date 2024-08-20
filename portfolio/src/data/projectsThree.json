@@ -2,22 +2,22 @@
     {
       "title": "TFLEaRN Bot",
       "subtitle": "NTUC Income Future X Hackathon 2022 - Best Business Use Case",
-      "description": "Telegram bot prototype that helps policyholders easily manage their insurance via a personalised token.",
+      "description": "Created a Telegram bot prototype with a team that helps policyholders easily manage and access their insurance via a personalised token.",
       "skills": ["Prototyping", "Smart Contracts"],
       "slidesLink": "/assets/NTUChackathon.pdf"
     },
     {
       "title": "Overcomers",
       "subtitle": "SUTD Design Odyssey",
-      "description": "Figma prototype that helps special needs educators make social stories for childern with autism.",
-      "skills": ["User Research", "Wireframing", "Prototyping", "Design Thinking"],
+      "description": "Created a Figma prototype with a team of an improved digital communication board for non-verbal children on the autism spectrum.",
+      "skills": ["User Research", "Wireframing", "Prototyping"],
       "slidesLink": "/assets/overcomers.pdf"
     },
     {
       "title": "Bus stop redesign",
       "subtitle": "Chalmers University of Technology",
-      "description": "Worked with diverse students to enhance waiting at bus stops in the suburbs using Norman’s 3 Levels of Emotional Design.",
-      "skills": ["User Research", "Wireframing", "Design Thinking"],
+      "description": "Worked with Chalmers University students to redesign a rural bus stop to improve commuter safety, engagement and comfort.",
+      "skills": ["User Research", "UX Frameworks"],
       "slidesLink": "https://miro.com/app/board/uXjVKpnqhwU=/?share_link_id=459117934217"
     }
 ]

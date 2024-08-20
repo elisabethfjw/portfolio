@@ -6,7 +6,6 @@ import { Projects } from './components/Projects/Projects';
 import { ProjectsTwo } from './components/ProjectsTwo/ProjectsTwo';
 import { ProjectsThree } from './components/ProjectsThree/ProjectsThree';
 import { ProjectsFour } from './components/ProjectsFour/ProjectsFour';
-import { Illustration } from './components/Illustrations/Illustration';
 
 function App() {
 
@@ -18,7 +17,6 @@ function App() {
       <ProjectsTwo />
       <ProjectsThree />
       <ProjectsFour />
-      <Illustration />
     </div>
   );
 }
