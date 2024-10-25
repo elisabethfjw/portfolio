@@ -10,7 +10,7 @@ export const Experience = () => {
                 <div className={styles.boxTitle}><h4>Data Science Intern</h4></div>
                 <div className={styles.boxSubtitle}>
                     <h4>Azendian Solutions</h4>
-                    <p>July 2024 - Present</p>
+                    <p>July 2024 - September 2024</p>
                 </div>
                 <div>
                     <ul className={styles.boxItem}>
