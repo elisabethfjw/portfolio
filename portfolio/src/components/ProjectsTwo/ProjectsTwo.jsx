@@ -8,7 +8,7 @@ import styles from './ProjectsTwo.module.css';
 export const ProjectsTwo = () => {
   return (
     <section className={styles.container}>
-      <h2 className={styles.title}>ai / ml</h2>
+      <h2 className={styles.title}>AI / ML</h2>
       <div className={styles.projects}>
         {projects.map((project, id) => {
           return (

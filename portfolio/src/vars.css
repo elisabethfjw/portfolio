@@ -22,4 +22,6 @@
 
     /* fonts */     
     --font-outfit: 'outfit', sans-serif;
+    --font-playfair: 'playfair display', serif;
+    --font-playfair-italic: 'playfair display italic', serif;
 }

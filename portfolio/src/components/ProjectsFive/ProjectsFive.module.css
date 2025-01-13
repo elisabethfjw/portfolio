@@ -12,10 +12,18 @@
 }
 
 .title {
-    font-size: 35px;
+    font-family: 'playfair display', serif;
+    font-size: 40px;
     text-align: center;
     color: var(--color-dark-brown);
     padding-top: 20px;
+}
+
+.subtitle {
+    font-family: 'playfair display italic', serif;
+    font-size: 32px;
+    text-align: center;
+    color: var(--color-dark-brown);
 }
 
 .projects {
@@ -34,7 +42,11 @@
     }
 
     .title {
-        font-size: 25px;
+        font-size: 32px;
+    }
+
+    .subtitle {
+        font-size: 24px;
     }
 
     .projects {

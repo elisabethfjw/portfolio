@@ -12,7 +12,8 @@
 
 }
 .title {
-    font-size: 35px;
+    font-family: 'playfair display', serif;
+    font-size: 40px;
     color: var(--color-dark-green);
     text-align: center;
 }
@@ -58,7 +59,7 @@
 }
 @media screen and (max-width: 830px) {
     .title {
-        font-size: 25px;
+        font-size: 24px;
     }
     .box {
         width: 90%; 
@@ -85,7 +86,7 @@
         min-height: 600px;
     }
     .title {
-        font-size: 25px;
+        font-size: 24px;
     }
 }
 

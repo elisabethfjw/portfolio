@@ -5,7 +5,7 @@ import sunflowerImg from '/assets/sunflower.png';
 export const Experience = () => {
   return (
     <section className={styles.container} id='timeline'>
-        <h2 className={styles.title}>experience</h2>
+        <h2 className={styles.title}>Experience</h2>
         <div className={styles.box}>
                 <div className={styles.boxTitle}><h4>Data Science Intern</h4></div>
                 <div className={styles.boxSubtitle}>

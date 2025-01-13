@@ -5,6 +5,15 @@
   src: url(/fonts/Outfit-Regular.ttf);
 }
 
+@font-face {
+  font-family: "playfair display";
+  src: url(/fonts/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+  font-family: "playfair display italic";
+  src: url(/fonts/PlayfairDisplay-Italic.ttf);
+}
 
 .App {
   background-color: var(--color-bg);

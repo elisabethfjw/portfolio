@@ -8,7 +8,8 @@ import styles from './ProjectsFive.module.css';
 export const ProjectsFive = () => {
   return (
     <section className={styles.container}>
-      <h2 className={styles.title}>blockchain</h2>
+      <h2 className={styles.title}>HACKATHONS</h2>
+      <h2 className={styles.subtitle}>blockchain</h2>
       <div className={styles.projects}>
         {projects.map((project, id) => {
           return (
