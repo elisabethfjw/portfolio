@@ -73,16 +73,16 @@
       padding-right: 0;
       text-align: center;
     }
-    .headerImg {
-      display: none;
-    }
     .contact {
-        justify-content: center; /* Center buttons horizontally */
-        margin-top: 10px;
-        margin-right: 0; /* Remove right margin */
-        width: 100%; /* Ensure it spans the width of the container */
-        display: flex; /* Ensure flexbox is applied */
+        justify-content: center;
+        margin-top: 2px;
+        margin-right: 0;
+        margin-left: 10px;
+        display: flex;
     }
+    .headerImg {
+        display: none;
+      }
 }
 
 @media screen and (height <= 600px) {
