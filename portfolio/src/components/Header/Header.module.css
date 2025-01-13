@@ -76,6 +76,13 @@
     .headerImg {
       display: none;
     }
+    .contact {
+        justify-content: center; /* Center buttons horizontally */
+        margin-top: 10px;
+        margin-right: 0; /* Remove right margin */
+        width: 100%; /* Ensure it spans the width of the container */
+        display: flex; /* Ensure flexbox is applied */
+    }
 }
 
 @media screen and (height <= 600px) {

@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Experience.module.css'
-import sunflowerImg from '/assets/sunflower.png';
+import sunflowerImg from '/assets/sunflower.png'
 
 export const Experience = () => {
   return (
