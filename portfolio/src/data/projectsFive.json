@@ -1,15 +1,15 @@
 [
   {
     "title": "TFLEaRN Bot",
-    "subtitle": "NTUC Income Future X Hackathon 2022 - Best Business Use Case",
+    "subtitle": "🥇NTUC Income Future X Hackathon 2022 - Best Business Use Case",
     "description": "Created a Telegram bot prototype with a team that helps policyholders easily manage and access their insurance via a personalised token.",
     "skills": ["Prototyping", "Smart Contracts"],
     "slidesLink": "/assets/NTUChackathon.pdf"
   },
   {
     "title": "Product Authenticity",
-    "subtitle": "Amazon Business Case Challenge (Blockchain Guardians Programme 2024) - 1st Runner Up",
-    "description": "Pitched a blockchain solution to increase consumer trust in the authenticity of products on Amazon.",
+    "subtitle": "🥈Amazon Business Case Challenge (Blockchain Guardians Programme 2024) - 1st Runner Up",
+    "description": "Pitched a blockchain-based solution to increase consumer trust in the authenticity of products on Amazon.",
     "skills": ["Smart Contracts", "Expiring NFTs"],
     "slidesLink": "/assets/amazon_case_study_slides.pdf"
   }

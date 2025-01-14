@@ -12,5 +12,12 @@
       "description": "Worked with Chalmers University students to redesign a rural bus stop to improve commuter safety, engagement and comfort.",
       "skills": ["User Research", "UX Frameworks"],
       "slidesLink": "https://miro.com/app/board/uXjVKpnqhwU=/?share_link_id=459117934217"
+    },
+    {
+      "title": "planetdate",
+      "subtitle": "User Interface Design & Implementation @ SUTD",
+      "description": "Created a Figma UI for a date planner app to simplify and elevate the date planning experience of couples.",
+      "skills": ["User Research", "Figma", "Prototyping"],
+      "slidesLink": "https://www.figma.com/design/eI0cMhvhOFHCsqT7Pmrp0v/50.006-User-Interface?node-id=2-15786&t=PIX8LML8tpJaeiZr-1"
     }
 ]

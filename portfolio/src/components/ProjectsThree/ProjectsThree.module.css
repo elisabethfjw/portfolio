@@ -8,7 +8,7 @@
     height: 100%;
     width: 100%;
     scroll-snap-align: start;
-    background-color: var(--color-beige);
+    background-color: var(--color-cream);
 }
 
 .title {
