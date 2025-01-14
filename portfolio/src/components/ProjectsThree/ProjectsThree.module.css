@@ -47,6 +47,6 @@
 
 @media screen and (height <= 600px) {
     .container {
-        min-height: 600px;
+        min-height: 800px;
     }
 }
