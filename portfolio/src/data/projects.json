@@ -1,7 +1,7 @@
 [
     {
       "title": "SustainWebable",
-      "subtitle": "🥉HackSingapore 2023 - 2nd Runner Up (Sustainability)",
+      "subtitle": "HackSingapore 2023 - 2nd Runner Up (Sustainability)",
       "description": "Android application that helps consumers and developers measure their carbon footprint.",
       "skills": ["Google Firebase", "Java", "Web Carbon API"],
       "github": "https://github.com/Eqedos/SustainWebable",
@@ -35,7 +35,7 @@
     },
     {
       "title": "ECOde",
-      "subtitle": "🥇SUTD What The Hack 2023 - Winner (Circular Economy and Sustainable Living)",
+      "subtitle": "SUTD What The Hack 2023 - Winner (Circular Economy and Sustainable Living)",
       "description": "Web application to help developers write more sustainable code.",
       "skills": ["React", "Express.js", "Node.js"],
       "github": "https://github.com/Eqedos/WTHFinal",
